@@ -1,0 +1,4 @@
+<mat-form-field>
+    <input matInput [formControl]="task">
+  </mat-form-field>
+  <button mat-button color="primary" (click)="addToDo(task.value)">Add To Do</button>

@@ -1,0 +1,7 @@
+<mat-list-item>
+    <mat-checkbox 
+      [checked]="toDo.complete" 
+      [ngClass]="statusChecked ? 'complete' : 'not-complete'" 
+      (change)="onCompleteChange(toDo, $event)">{{toDo}}
+    </mat-checkbox>
+</mat-list-item>

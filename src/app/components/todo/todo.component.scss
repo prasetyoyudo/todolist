@@ -1,0 +1,11 @@
+:host {
+    .complete {
+      text-decoration: line-through;
+    }
+  }
+
+  :host {
+    .not-complete {
+      text-decoration: none;
+    }
+  }

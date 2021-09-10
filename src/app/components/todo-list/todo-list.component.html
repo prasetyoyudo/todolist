@@ -1,0 +1,7 @@
+<mat-list role="list">
+    <app-todo 
+      *ngFor="let toDo of toDos" 
+      [toDo]="toDo" 
+      (toDoChange)="onCompleteChange($event)">
+    </app-todo>
+</mat-list>
